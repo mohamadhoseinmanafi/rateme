@@ -1,0 +1,12 @@
+group 'Rateme'
+version 'v1.0'
+
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
